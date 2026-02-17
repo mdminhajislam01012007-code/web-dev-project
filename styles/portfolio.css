@@ -1,0 +1,84 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* secondari colur */
+.dark-2{
+  color: #757575;
+}
+.heder{
+  background-image: url(../images/developer.png),url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left,bottom right;
+}
+
+/* sheyared style */
+.text-primary{
+  color: #FD6E0A;
+}
+.btn-primary{
+  background-color: #FD6E0A;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  padding: 18px 35px;
+  font-size: 18px;
+  border: none;
+}
+
+/* nav style */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+.nav-title{
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul li{
+  list-style: none;
+  margin-right: 50px;
+}
+nav li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+/* benner style */
+.benner-greting{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.benner-title{
+  font-weight: bold;
+  font-size: 50px;
+}
+.benner-discription{
+  font-size: 18px;
+}
+.banner-profile-pic{
+  width: 500px;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+.benner-contant{
+  max-width: 580px;
+}
+
